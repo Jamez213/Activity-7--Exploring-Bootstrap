@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+            <!-- NAVBAR -->
+    <div>
+        <header class="ml-2 p-2 bg-light shadow">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+        </header>
+    </div>
+    
+
+        
+    <div>
+        <main>              <!-- CAROUSEL -->
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Image/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Image/5.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+              <!-- CARD -->
+        
+              <div>
+                <div class="card text-center">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Discover the Grand Line Adventures</h5>
+                      <p class="card-text">Our Pirate Crew: Meet the Characters.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                        Straw Hat Pirates
+                    </div>
+                  </div>
+              </div>
+
+            
+            <!-- MY PIRATE CREW CHARACTERS -->
+
+            <div class="card-group">
+                <div class="card">
+                  <img src="Image/luffy.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Monkey D. Luffy</h5>
+                    <p class="card-text">Luffy's dream is to become the Pirate King by finding the legendary treasure "One Piece" and having the most freedom on the seas..</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="Image/zoro.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Roronoa Zoro</h5>
+                    <p class="card-text">Zoro's dream is to become the world's greatest swordsman. 
+                        This aspiration is deeply rooted in his character and has been his goal ever since he was introduced in the series.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="Image/sanji (2).jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Vinsmoke Sanji</h5>
+                    <p class="card-text">Sanji's dream is to find the All Blue, a legendary sea where fish from all over the world gather, allowing him to create the ultimate dishes.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="Image/nami.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cat Burglar Nami</h5>
+                      <p class="card-text">Nami's dream is to create a complete and accurate map of the world, known as the "World Map."</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="Image/usopp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Usopp D. Snipp</h5>
+                      <p class="card-text">Usopp's dream is to become a brave warrior of the sea, much like his father, Yasopp, who is a sharpshooter in the Red-Haired Pirates.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+              </div>
+
+              <!-- Pirate Crew: Second Row -->
+
+              <div class="card-group">
+                <div class="card">
+                  <img src="Image/chopper.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tony Tony Chopper</h5>
+                    <p class="card-text">Chopper's dream is to become a "cured" reindeer-human and find a way to fit in with both humans and reindeer without being considered a monster.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="Image/nico robin.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Nico Robin</h5>
+                    <p class="card-text">Robin's dream is to decipher the "True History" of the world, which is shrouded in secrecy and heavily guarded by the World Government.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="Image/franky.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Franky</h5>
+                    <p class="card-text">Franky's dream is to build and sail the ultimate ship, known as the "Thousand Sunny," which he considers a promise to his late mentor, Tom.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="Image/brook.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"> "Soul King" Brook</h5>
+                      <p class="card-text">Brook's dream is to reunite with a whale friend, Laboon, who has been waiting for him at the entrance to the Grand Line for many years.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="Image/jinbe.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Knight of the Sea Jinbe</h5>
+                      <p class="card-text">Jinbe's dream is to see a world where fish-men and humans can coexist in harmony and mutual respect.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+              </div>
+
+
+
+
+        </main>
+
+
+
+    </div>
+    
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
